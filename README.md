@@ -1,4 +1,4 @@
-# jaslens.ai
+# jaklens.ai
 
 Official download page for jaslens.ai.
 
