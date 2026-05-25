@@ -1,101 +1,89 @@
-<div align="center">
+# What is jaklens.ai?
 
-<img src="https://jaklens.com/favicon.svg" width="80" alt="jaklens.ai logo" />
+jaklens.ai is a desktop app for Windows that helps you organize invoices, track expenses and income, and search your financial data using local AI.
 
-# jaklens.ai
+You can drop in a PDF or image invoice, and the app will automatically extract details like the vendor name, invoice date, totals, taxes, and line items. Everything runs directly on your computer.
 
-**Free offline AI invoice management & finance tracker for Windows**
+You can also ask questions about your finances in plain language, such as:
 
-[![Download](https://img.shields.io/badge/Download-v1.0.0-6366f1?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/jakscoduxdev-netizen/jaslens.download/releases/download/v1.0.0/jaklens.ai.Setup.0.0.0.exe)
-[![License](https://img.shields.io/badge/License-Free-10b981?style=for-the-badge)](https://jaklens.com/privacy.html)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078d4?style=for-the-badge&logo=windows)](https://jaklens.com/download.html)
+* “How much did I spend on subscriptions this month?”
+* “Show my largest expenses from last quarter.”
+* “Which supplier did I pay the most this year?”
 
-[Website](https://jaklens.com) · [How It Works](https://jaklens.com/how-it-works.html) · [Features](https://jaklens.com/features.html) · [Privacy Policy](https://jaklens.com/privacy.html)
-
-</div>
+The app works fully offline after installation. Your files and financial data stay on your device — nothing is uploaded to the cloud.
 
 ---
 
-## ⬇️ Download
+# Features
 
-| Version | File | Size | Platform |
-|---------|------|------|----------|
-| [v1.0.0](https://github.com/jakscoduxdev-netizen/jaslens.download/releases/tag/v1.0.0) | [jaklens.ai.Setup.0.0.0.exe](https://github.com/jakscoduxdev-netizen/jaslens.download/releases/download/v1.0.0/jaklens.ai.Setup.0.0.0.exe) | 418 MB | Windows 10 / 11 (64-bit) |
+### Invoice Reading with Local AI
 
-> **Includes the Qwen2.5 1.5B AI model** — no separate download needed. One installer, fully offline after setup.
+jaklens.ai can read invoices from PDFs and images using locally running AI models powered by Qwen2.5 and llama.cpp.
 
----
+### Ask Questions About Your Data
 
-## What is jaklens.ai?
+Search your expenses and income naturally without manually filtering spreadsheets or tables.
 
-jaklens.ai is a **free Windows desktop app** that reads your invoices with local AI, tracks your expenses and income, and answers financial questions — all 100% offline.
+### Local Database
 
-- 📄 **Drop a PDF or image invoice** → AI extracts vendor, date, amounts, and line items automatically
-- 💬 **Ask your finances questions** in plain language → on-device AI answers from your local data
-- 📊 **Track expenses & income** with categories, tags, and notes
-- 🔒 **Zero cloud** — no account, no subscription, no data ever leaves your machine
+All your data is stored locally in SQLite, so you stay in control of your information.
 
----
+### Supports Common Invoice Formats
 
-## ✨ Features
+Works with PDF, PNG, JPG, and WEBP invoice files.
 
-| Feature | Description |
-|---------|-------------|
-| 🤖 AI Invoice OCR | Reads PDF & image invoices using Qwen2.5 1.5B + llama.cpp — runs entirely on your CPU |
-| 💬 AI Finance Chat | Ask "What did I spend on tools last quarter?" — answered from your local SQLite database |
-| 📁 Local Storage | All data stored in a SQLite database on your PC. You own your data. |
-| 📄 Multi-format | Supports PDF, PNG, JPG, WEBP invoices |
-| 🔒 100% Offline | Works without internet after the initial app install |
-| 🆓 Free Forever | No subscription, no freemium limits, no hidden fees |
+### Offline by Default
+
+No internet connection is needed after the application is installed.
+
+### Free to Use
+
+No subscriptions, accounts, or locked features.
 
 ---
 
-## 🚀 Installation
+# Installation
 
-1. **Download** `jaklens.ai.Setup.0.0.0.exe` from the [Releases](../../releases) page
-2. **Run** the installer — no account or internet connection required
-3. **Launch** jaklens.ai from your Desktop or Start Menu
-4. **Start adding** invoices — drag and drop or use the file picker
+1. Download `jaklens.ai.Setup.0.0.0.exe` from the Releases page
+2. Run the installer
+3. Open jaklens.ai from your Desktop or Start Menu
+4. Start adding invoices with drag-and-drop or the file picker
 
-> The installer includes everything including the AI model (~418 MB total). After installation the app runs fully offline.
-
----
-
-## 💻 System Requirements
-
-| | Minimum | Recommended |
-|--|---------|-------------|
-| **OS** | Windows 10 (64-bit) | Windows 11 (64-bit) |
-| **RAM** | 4 GB | 8 GB |
-| **Storage** | 2 GB free | 5 GB free |
-| **CPU** | Any modern x64 | 4+ cores |
-| **Internet** | Not required | Not required |
+The installer already includes the AI model, so there’s no extra setup required.
 
 ---
 
-## 🔒 Privacy
+# System Requirements
 
-jaklens.ai collects **zero data**. There are no analytics, no crash reports, no telemetry. Everything stays on your machine.
+| Minimum              | Recommended         |
+| -------------------- | ------------------- |
+| Windows 10 (64-bit)  | Windows 11 (64-bit) |
+| 4 GB RAM             | 8 GB RAM            |
+| 2 GB free storage    | 5 GB free storage   |
+| Modern x64 processor | 4+ CPU cores        |
 
-- No account required
-- No internet connection needed after install
-- All invoice data stored locally in SQLite
-- AI model runs on-device via llama.cpp
-- Full details: [Privacy Policy](https://jaklens.com/privacy.html)
-
----
-
-## 🔗 Links
-
-- 🌐 **Website:** [jaklens.com](https://jaklens.com)
-- ⚙️ **How It Works:** [jaklens.com/how-it-works.html](https://jaklens.com/how-it-works.html)
-- 📋 **Features:** [jaklens.com/features.html](https://jaklens.com/features.html)
-- ⚖️ **vs QuickBooks:** [jaklens.com/vs-quickbooks.html](https://jaklens.com/vs-quickbooks.html)
-- 📝 **Blog:** [jaklens.com/blog/index.html](https://jaklens.com/blog/index.html)
-- 👨‍💻 **Developer:** [jack-codes.com](https://jack-codes.com)
+An internet connection is not required after installation.
 
 ---
 
-<div align="center">
-  <sub>Built with ❤️ by <a href="https://jack-codes.com">Jaks</a> · Free forever · No cloud · No BS</sub>
-</div>
+# Privacy
+
+jaklens.ai is built to work locally on your machine.
+
+* No accounts
+* No analytics
+* No telemetry
+* No cloud processing
+
+Your invoices and financial data remain on your computer, and the AI runs locally using llama.cpp.
+
+---
+
+# Links
+
+Website: jaklens.com
+How It Works: jaklens.com/how-it-works.html
+Features: jaklens.com/features.html
+vs QuickBooks: jaklens.com/vs-quickbooks.html
+Blog: jaklens.com/blog/index.html
+Developer: jack-codes.com
