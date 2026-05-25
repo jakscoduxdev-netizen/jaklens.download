@@ -81,9 +81,14 @@ Your invoices and financial data remain on your computer, and the AI runs locall
 
 # Links
 
-Website: jaklens.com
+Website: jaklens.com 
+
 How It Works: jaklens.com/how-it-works.html
+
 Features: jaklens.com/features.html
+
 vs QuickBooks: jaklens.com/vs-quickbooks.html
+
 Blog: jaklens.com/blog/index.html
+
 Developer: jack-codes.com
